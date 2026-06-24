@@ -1,0 +1,986 @@
+{
+  "kullanici": {
+    "isim": "Dogukan",
+    "sehir": "mersin",
+    "tercihler": {
+      "__test_key__": ""
+    }
+  },
+  "komut_istatistikleri": {
+    "muzik_cal": 9,
+    "muzik_duraklat": 7,
+    "hava_durumu": 8,
+    "takvim": 8,
+    "sabah_raporu": 7,
+    "klavye_isigi": 24,
+    "llm_parlaklik": 18,
+    "llm_bluetooth_kapat": 5,
+    "wifi_ac": 3,
+    "bluetooth_kapat": 3,
+    "touchpad_kapat": 1,
+    "touchpad_ac": 1,
+    "windows_tusu_kapat": 1,
+    "windows_tusu_ac": 1,
+    "llm_sonraki_sarki": 3,
+    "sonraki_sarki": 6,
+    "mail_oku": 8,
+    "llm_sistem_sesi": 10,
+    "onceki_sarki": 2,
+    "llm_fan_modu": 13,
+    "tarayıcı": 3,
+    "not_ekle": 2,
+    "not_oku": 2,
+    "hatirlatici": 2,
+    "ceviri": 3,
+    "llm_muzik_cal": 3,
+    "isim_kaydet": 5,
+    "llm_touchpad_kapat": 1,
+    "llm_touchpad_ac": 1,
+    "llm_dosya_ara": 4,
+    "llm_uyku_modu": 1,
+    "bilgisayari_kapat": 1,
+    "playlist_cal": 5,
+    "yedek_bt_kapat": 9,
+    "yedek_bt_ac": 2,
+    "yedek_wifi_kapat": 3,
+    "yedek_wifi_ac": 1,
+    "yedek_klavye_isigi": 2,
+    "yedek_ses_sustur": 1,
+    "yedek_ses_ayarla": 1,
+    "yedek_sistem_durumu": 1,
+    "yedek_ekran_kilitle": 1,
+    "yedek_ekran_kapat": 1,
+    "yedek_uyku": 1,
+    "yedek_restart": 1,
+    "yedek_ucak_modu": 1,
+    "yedek_touchpad": 2,
+    "yedek_performans": 1,
+    "yedek_tasarruf": 1,
+    "__test_komut__": 3,
+    "yedek_pil": 2,
+    "yedek_gece_modu": 2,
+    "yedek_parlaklik": 9,
+    "llm_klavye_isigi": 14,
+    "llm_bluetooth_ac": 2,
+    "llm_gpu_modu": 1,
+    "klavye_renk": 10,
+    "llm_muzik_devam": 1,
+    "yedek_fan": 5,
+    "ne_caliyor": 1,
+    "saat": 2,
+    "kimlik_sorgu": 3,
+    "llm_hava_durumu": 1,
+    "llm_gece_modu": 1,
+    "llm_notlari_oku": 1,
+    "llm_not_al": 1,
+    "ozel_gun": 1,
+    "not": 2
+  },
+  "aliskanliklar": {
+    "muzik_cal": {
+      "sabah": 0,
+      "öğle": 3,
+      "akşam": 5,
+      "gece": 1
+    },
+    "muzik_duraklat": {
+      "sabah": 0,
+      "öğle": 5,
+      "akşam": 1,
+      "gece": 1
+    },
+    "hava_durumu": {
+      "sabah": 0,
+      "öğle": 3,
+      "akşam": 2,
+      "gece": 3
+    },
+    "takvim": {
+      "sabah": 0,
+      "öğle": 5,
+      "akşam": 3,
+      "gece": 0
+    },
+    "sabah_raporu": {
+      "sabah": 0,
+      "öğle": 3,
+      "akşam": 3,
+      "gece": 1
+    },
+    "klavye_isigi": {
+      "sabah": 0,
+      "öğle": 18,
+      "akşam": 2,
+      "gece": 4
+    },
+    "llm_parlaklik": {
+      "sabah": 0,
+      "öğle": 7,
+      "akşam": 3,
+      "gece": 8
+    },
+    "llm_bluetooth_kapat": {
+      "sabah": 0,
+      "öğle": 2,
+      "akşam": 1,
+      "gece": 2
+    },
+    "wifi_ac": {
+      "sabah": 0,
+      "öğle": 3,
+      "akşam": 0,
+      "gece": 0
+    },
+    "bluetooth_kapat": {
+      "sabah": 0,
+      "öğle": 3,
+      "akşam": 0,
+      "gece": 0
+    },
+    "touchpad_kapat": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "touchpad_ac": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "windows_tusu_kapat": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "windows_tusu_ac": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "llm_sonraki_sarki": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 2,
+      "gece": 1
+    },
+    "sonraki_sarki": {
+      "sabah": 0,
+      "öğle": 4,
+      "akşam": 1,
+      "gece": 1
+    },
+    "mail_oku": {
+      "sabah": 0,
+      "öğle": 4,
+      "akşam": 2,
+      "gece": 2
+    },
+    "llm_sistem_sesi": {
+      "sabah": 0,
+      "öğle": 7,
+      "akşam": 3,
+      "gece": 0
+    },
+    "onceki_sarki": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 1,
+      "gece": 0
+    },
+    "llm_fan_modu": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 3,
+      "gece": 9
+    },
+    "tarayıcı": {
+      "sabah": 0,
+      "öğle": 2,
+      "akşam": 1,
+      "gece": 0
+    },
+    "not_ekle": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 1,
+      "gece": 0
+    },
+    "not_oku": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 1,
+      "gece": 0
+    },
+    "hatirlatici": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 1,
+      "gece": 0
+    },
+    "ceviri": {
+      "sabah": 0,
+      "öğle": 2,
+      "akşam": 1,
+      "gece": 0
+    },
+    "llm_muzik_cal": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 2,
+      "gece": 0
+    },
+    "isim_kaydet": {
+      "sabah": 0,
+      "öğle": 3,
+      "akşam": 2,
+      "gece": 0
+    },
+    "llm_touchpad_kapat": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "llm_touchpad_ac": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "llm_dosya_ara": {
+      "sabah": 0,
+      "öğle": 4,
+      "akşam": 0,
+      "gece": 0
+    },
+    "llm_uyku_modu": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "bilgisayari_kapat": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "playlist_cal": {
+      "sabah": 0,
+      "öğle": 3,
+      "akşam": 2,
+      "gece": 0
+    },
+    "yedek_bt_kapat": {
+      "sabah": 0,
+      "öğle": 2,
+      "akşam": 7,
+      "gece": 0
+    },
+    "yedek_bt_ac": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 2,
+      "gece": 0
+    },
+    "yedek_wifi_kapat": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 3,
+      "gece": 0
+    },
+    "yedek_wifi_ac": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_klavye_isigi": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 2,
+      "gece": 0
+    },
+    "yedek_ses_sustur": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_ses_ayarla": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_sistem_durumu": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_ekran_kilitle": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_ekran_kapat": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_uyku": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_restart": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_ucak_modu": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_touchpad": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 2,
+      "gece": 0
+    },
+    "yedek_performans": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_tasarruf": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "yedek_pil": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 2,
+      "gece": 0
+    },
+    "yedek_gece_modu": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 2,
+      "gece": 0
+    },
+    "yedek_parlaklik": {
+      "sabah": 0,
+      "öğle": 2,
+      "akşam": 4,
+      "gece": 3
+    },
+    "llm_klavye_isigi": {
+      "sabah": 0,
+      "öğle": 5,
+      "akşam": 2,
+      "gece": 7
+    },
+    "llm_bluetooth_ac": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 1
+    },
+    "llm_gpu_modu": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 0,
+      "gece": 1
+    },
+    "klavye_renk": {
+      "sabah": 0,
+      "öğle": 8,
+      "akşam": 2,
+      "gece": 0
+    },
+    "llm_muzik_devam": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "yedek_fan": {
+      "sabah": 0,
+      "öğle": 3,
+      "akşam": 2,
+      "gece": 0
+    },
+    "ne_caliyor": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 0,
+      "gece": 0
+    },
+    "saat": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 1,
+      "gece": 0
+    },
+    "kimlik_sorgu": {
+      "sabah": 0,
+      "öğle": 1,
+      "akşam": 2,
+      "gece": 0
+    },
+    "llm_hava_durumu": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 0,
+      "gece": 1
+    },
+    "llm_gece_modu": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "llm_notlari_oku": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "llm_not_al": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "ozel_gun": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 1,
+      "gece": 0
+    },
+    "not": {
+      "sabah": 0,
+      "öğle": 0,
+      "akşam": 2,
+      "gece": 0
+    }
+  },
+  "konusma_gecmisi": [
+    {
+      "tarih": "2026-06-21T20:32:57",
+      "kullanici": "bt kapat",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:33:03",
+      "kullanici": "bt aç",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:33:13",
+      "kullanici": "klavye 1",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:33:21",
+      "kullanici": "fan turbo",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:33:34",
+      "kullanici": "parlkalık 100",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:33:44",
+      "kullanici": "klavye 3,",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:33:54",
+      "kullanici": "benim adım ne",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:34:02",
+      "kullanici": "adım dogukan",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:34:08",
+      "kullanici": "benim adım ne",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:34:46",
+      "kullanici": "bana ilk açılşta şunu yapalım diye öneride bulunma",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:35:19",
+      "kullanici": "ödevim için bana yardımcı olur musun",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:37:20",
+      "kullanici": "cerrahi hemşireginde post op urınary sysytm sureci nasıl olmalı 5 madde söyleyin",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:45:43",
+      "kullanici": "bişeyler çal",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:45:57",
+      "kullanici": "yok da rastgele bişeyler çal",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:46:16",
+      "kullanici": "bu şarkı ismi degil senle konuşuyorum",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:46:32",
+      "kullanici": "rastgele kendi istedgin bir şarkı çal",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:46:55",
+      "kullanici": "la işte bu şarkı ismi degil ki spotfyda rastegele çal",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:47:02",
+      "kullanici": "malsın",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:47:21",
+      "kullanici": "şarkı degiş",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:47:39",
+      "kullanici": "epic rock türünde şarkılar çal",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:47:57",
+      "kullanici": "epic rock türünde şarkılar aç",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T20:48:10",
+      "kullanici": "çıkış",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T22:37:20",
+      "kullanici": "nasılsın?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T22:37:39",
+      "kullanici": "erzurum'da hava kaç derece?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T22:43:13",
+      "kullanici": "arka bacak ağrısının nedenlerini...",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T22:43:50",
+      "kullanici": "gözlerim yanıyor, neden olabilir?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T22:44:01",
+      "kullanici": "klavye parlaklığı...",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T22:44:13",
+      "kullanici": "klavye parlaklığı 1.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T22:44:24",
+      "kullanici": "klavye parlaklığı...",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-21T22:44:31",
+      "kullanici": "vifi kapat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:52:17",
+      "kullanici": "klavye ışığını 3 yap.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:52:28",
+      "kullanici": "klavye ışığını kapat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:52:40",
+      "kullanici": "klavye ışığını aç.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:52:49",
+      "kullanici": "klavye ışığı kırmızı.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:53:01",
+      "kullanici": "klavye ışığı da yaz.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:53:09",
+      "kullanici": "b.t. kapat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:56:27",
+      "kullanici": "klavye ışığı veya...",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:56:38",
+      "kullanici": "klavye ışığı beyaz.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:56:48",
+      "kullanici": "bluetooth kapat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:57:01",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:57:10",
+      "kullanici": "şarkı çalıyor.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:57:26",
+      "kullanici": "spotify'den bir şeyler çaldı.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:57:36",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:57:46",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:57:57",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:58:14",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:58:24",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:58:32",
+      "kullanici": "duraklat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:58:41",
+      "kullanici": "saat kaç?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:59:09",
+      "kullanici": "sabah raporu.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:59:25",
+      "kullanici": "mersin'de hava durumu.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:59:34",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:59:42",
+      "kullanici": "duraklat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T13:59:50",
+      "kullanici": "ne?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:00:06",
+      "kullanici": "ekran parlaklığı %50.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:00:16",
+      "kullanici": "ekran parlaklığı 100.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:00:29",
+      "kullanici": "başka neyi ikleyebiliriz hatice?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:00:40",
+      "kullanici": "evet.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:00:48",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:00:55",
+      "kullanici": "duraklat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:01:24",
+      "kullanici": "hımm, yaparız. yapmasın ki.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:01:36",
+      "kullanici": "benim adım ne?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:01:47",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:01:54",
+      "kullanici": "duraklat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:02:02",
+      "kullanici": "tarayıcı aç",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:02:16",
+      "kullanici": "fatiha.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:02:25",
+      "kullanici": "fan modu turbo",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:02:37",
+      "kullanici": "şu klaviri istemiyorum.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:02:48",
+      "kullanici": "altyazı m.k.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T14:44:45",
+      "kullanici": "asılsın.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:01:40",
+      "kullanici": "b.t. kapat.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:01:58",
+      "kullanici": "hey jervis.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:02:26",
+      "kullanici": "bir şeyler çal.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:02:50",
+      "kullanici": "bir şeyler çal.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:03:07",
+      "kullanici": "bir şeyler çal.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:03:26",
+      "kullanici": "ready or rock, play this, ciao.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:03:37",
+      "kullanici": "radyo rock playlistini çal.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:04:53",
+      "kullanici": "gelen maillerimi oku.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:05:35",
+      "kullanici": "yalan maillerimiz sil.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:06:00",
+      "kullanici": "parlaklık 50",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:06:09",
+      "kullanici": "fan modu turbo",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:06:25",
+      "kullanici": "b.t.a.c.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:06:38",
+      "kullanici": "klavye mor.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:06:55",
+      "kullanici": "ekran 100.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:21:46",
+      "kullanici": "bir şeyler çal.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:22:53",
+      "kullanici": "nasilsin.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:23:11",
+      "kullanici": "gece raporu",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:23:43",
+      "kullanici": "akşam raporu",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:24:05",
+      "kullanici": "kayıtlı notumuz sil.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-23T21:24:21",
+      "kullanici": "notu sil.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:24:59",
+      "kullanici": "nasılsın?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:25:16",
+      "kullanici": "kolay ve hoşçakalın.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:25:27",
+      "kullanici": "klavye ışığı beyaz.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:25:39",
+      "kullanici": "fun modu turbo",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:25:55",
+      "kullanici": "bugün takvimde ne var?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:26:06",
+      "kullanici": "bugün özel bir gündür.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:26:24",
+      "kullanici": "30 asistan'a ver.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:26:35",
+      "kullanici": "30 ağustos'ta takvim'de ne var?",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:26:59",
+      "kullanici": "notlarımı sil.",
+      "friday": ""
+    },
+    {
+      "tarih": "2026-06-24T20:27:18",
+      "kullanici": "notlarımı sil.",
+      "friday": ""
+    }
+  ],
+  "asistan_adi": "Friday"
+}
